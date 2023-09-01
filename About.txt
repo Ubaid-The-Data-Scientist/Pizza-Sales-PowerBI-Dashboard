@@ -1,0 +1,35 @@
+Project Workflow:
+1. Busness Requirement/Problem
+2. Data Gathering
+3. Data Cleaning/Transformation (if needed)
+4. Data Modelling (as per business problem)
+5. Create Report
+
+Business Problem:
+1. How many customers do we have each day? Are there any peak hours?
+2. How many pizzas are typically in an order? Do we have any bestsellers?
+3. How much money did we make this year? Can we indentify any seasonality in the sales?
+4. Are there any pizzas we should take of the menu, or any promotions we could leverage?
+
+Data Gathering:
+Multiple table pizza sales data from Maven Analytics.
+
+Data Cleaning/Transformation:
+1. Renaming columns and tables as per reporting format.
+2. Promoting row to header
+3. Data type check
+4. Replace null with zero (No null found)
+
+Data Modelling:
+1. Make a DATE table using DAX functions
+2. Including the following measures in a seperate measures table according to the business problem:
+    - Total Orders (distinctcount on order id from order details table)
+    - Total Sales (sumx on quantity and price)
+    - Average Orders Per Day (divide order id and date)
+    - Average Pizzas Per Order
+3. Time Slot Column in the orders table.
+4. Make Time Slot Sorting column to sort values
+
+Creating Report:
+1. Canvas Setting (height=800,width=1280,middle,background=grey,transperancy=50%)
+2. Add a header
