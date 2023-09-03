@@ -1,7 +1,7 @@
 # Pizza-Sales-PowerBI-Dashboard
-Analyzing a year's worth of sales from a fictitious pizza place &amp; comming up with an interactive Power BI dashboard<br><br>
+Analyzing a year's worth of sales from a fictitious pizza place &amp; coming up with an interactive Power BI dashboard<br><br>
 
-<img src="https://github.com/Ubaid-The-Data-Scientist/Pizza-Sales-PowerBI-Dashboard/blob/main/Pizza%20sales%20analysis%20(1).png" alt="alternative_text">
+<img src="https://github.com/Ubaid-The-Data-Scientist/Pizza-Sales-PowerBI-Dashboard/blob/main/Dashboard.jpg" alt="alternative_text">
 
 
 
@@ -10,7 +10,7 @@ The business problem asks four key questions:
 1. How many customers do we have each day? Are there any peak hours?<br>
 2. How many pizzas are typically in an order? Do we have any bestsellers?<br>
 3. How much money did we make this year? Can we identify any seasonality in the sales?<br>
-4. Are there any pizzas we should take off the menu, or any promotions we could leverage.<br><br>
+4. Are there any pizzas we should take off the menu, or any promotions we could leverage?<br><br>
 
 ### **What Was Done:**<br>
 With the aid of a robust multi-table pizza sales dataset sourced from Maven Playground, comprising approximately 50,000 records, I successfully crafted an intuitive and comprehensive dashboard using Power BI.
