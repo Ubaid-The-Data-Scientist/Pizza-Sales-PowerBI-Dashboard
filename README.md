@@ -1,4 +1,4 @@
-# Pizza-Sales-PowerBI-Dashboard
+# Pizza Sales Power-BI Dashboard
 Analyzing a year's worth of sales from a fictitious pizza place &amp; coming up with an interactive Power BI dashboard<br><br>
 
 <img src="https://github.com/Ubaid-The-Data-Scientist/Pizza-Sales-PowerBI-Dashboard/blob/main/Dashboard.jpg" alt="alternative_text">
